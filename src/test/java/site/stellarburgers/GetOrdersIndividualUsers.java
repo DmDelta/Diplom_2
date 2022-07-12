@@ -4,6 +4,12 @@ import io.qameta.allure.Description;
 import io.restassured.response.ValidatableResponse;
 import org.junit.Before;
 import org.junit.Test;
+import site.stellarburgers.client.Ingredients;
+import site.stellarburgers.client.OrderClient;
+import site.stellarburgers.client.UserClient;
+import site.stellarburgers.model.User;
+import site.stellarburgers.model.UserCredentials;
+
 import java.util.List;
 import java.util.Map;
 

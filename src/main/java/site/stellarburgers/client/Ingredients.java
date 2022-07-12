@@ -1,13 +1,15 @@
-package site.stellarburgers;
+package site.stellarburgers.client;
 
 import com.github.javafaker.Faker;
 import io.restassured.response.ValidatableResponse;
+import site.stellarburgers.util.RestAssuredClient;
+
 import java.util.ArrayList;
 import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.apache.commons.lang3.RandomUtils.nextInt;
 
-public class Ingredients extends RestAssuredClient{
+public class Ingredients extends RestAssuredClient {
     private static final String INGRIDIENTS_PATH = "api/ingredients";
 
     public ArrayList<Object> ingredients;

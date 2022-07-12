@@ -6,6 +6,9 @@ import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import site.stellarburgers.client.UserClient;
+import site.stellarburgers.model.User;
+import site.stellarburgers.model.UserCredentials;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;

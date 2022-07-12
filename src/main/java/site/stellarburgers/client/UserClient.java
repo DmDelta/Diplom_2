@@ -1,7 +1,11 @@
-package site.stellarburgers;
+package site.stellarburgers.client;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
+import site.stellarburgers.model.UserCredentials;
+import site.stellarburgers.model.Tokens;
+import site.stellarburgers.model.User;
+import site.stellarburgers.util.RestAssuredClient;
 
 import static io.restassured.RestAssured.given;
 

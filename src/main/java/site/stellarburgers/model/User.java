@@ -1,4 +1,4 @@
-package site.stellarburgers;
+package site.stellarburgers.model;
 // импортируем библиотеку генерации строк
 import org.apache.commons.lang3.RandomStringUtils;
 

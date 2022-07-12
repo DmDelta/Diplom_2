@@ -1,4 +1,4 @@
-package site.stellarburgers;
+package site.stellarburgers.util;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;

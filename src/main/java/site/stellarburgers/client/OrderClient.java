@@ -1,11 +1,12 @@
-package site.stellarburgers;
+package site.stellarburgers.client;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
+import site.stellarburgers.util.RestAssuredClient;
 
 import static io.restassured.RestAssured.given;
 
-public class OrderClient extends RestAssuredClient{
+public class OrderClient extends RestAssuredClient {
     private static final String ORDER_PATH = "api/orders";
 
     @Step("Создание заказа")

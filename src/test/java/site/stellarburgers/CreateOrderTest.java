@@ -5,6 +5,10 @@ import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.Before;
 import org.junit.Test;
+import site.stellarburgers.client.Ingredients;
+import site.stellarburgers.client.OrderClient;
+import site.stellarburgers.client.UserClient;
+import site.stellarburgers.model.User;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;

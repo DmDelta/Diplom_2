@@ -1,4 +1,4 @@
-package site.stellarburgers;
+package site.stellarburgers.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.github.javafaker.Faker;

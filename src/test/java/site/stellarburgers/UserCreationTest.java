@@ -3,8 +3,11 @@ package site.stellarburgers;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import site.stellarburgers.client.UserClient;
+import site.stellarburgers.model.User;
 
 import static org.hamcrest.Matchers.*;
 
@@ -14,6 +17,12 @@ public class UserCreationTest {
     @Before
     public void setUp() {
         userClient = new UserClient();
+
+    }
+
+    @After
+    public void cleanUp() {
+        userClient.delete();
     }
 
     @Test

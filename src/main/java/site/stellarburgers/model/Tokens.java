@@ -1,4 +1,4 @@
-package site.stellarburgers;
+package site.stellarburgers.model;
 
 public class Tokens {
     public static String accessToken;
